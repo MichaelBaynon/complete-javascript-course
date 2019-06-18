@@ -72,29 +72,79 @@
 // var average = (ageMichael + ageMom) / 2
 // console.log(average)
 
-// var x, y;
-// x = (3 + 3) * 4 - 6;
-// console.log(x)
+// // var x, y;
+// // x = (3 + 3) * 4 - 6;
+// // console.log(x)
 
-// x *= 2
-// console.log(x)
+// // x *= 2
+// // console.log(x)
 
-var markHeightMeters = 2
-var markMassKG = 54
+// // var markHeightMeters = 2
+// // var markMassKG = 54
 
-var johnHeightMeters = 2.4
-var johnMassKG = 48
+// // var johnHeightMeters = 2.4
+// // var johnMassKG = 48
 
-var markBMI = markMassKG / (markHeightMeters * markHeightMeters)
-console.log(markBMI)
+// // var markBMI = markMassKG / (markHeightMeters * markHeightMeters)
+// // console.log(markBMI)
 
-var johnBMI = johnMassKG / (johnHeightMeters * johnHeightMeters)
-console.log(johnBMI)
+// // var johnBMI = johnMassKG / (johnHeightMeters * johnHeightMeters)
+// // console.log(johnBMI)
 
-var compareWeight = markBMI > johnBMI
-console.log('Is Mark\'s Bmi higher then john\'s???' + compareWeight)
+// // var compareWeight = markBMI > johnBMI
+// // console.log('Is Mark\'s Bmi higher then john\'s???' + compareWeight)
+
+// var firstName = 'michael'
+// var civilStatus = 'single'
+
+// if (civilStatus === 'married') {
+//     console.log(firstName + ' is married!')
+// } else {
+//     console.log(firstName + ' will hopefully marry soon :)')
+// }
+
+// var isMarried = true;
+
+// if (isMarried) {
+//     console.log(firstName + ' is married!')
+// } else {
+//     console.log(firstName + ' will hopefully marry soon :)')
+
+// }
 
 
+// var markHeightMeters = 2
+// var markMassKG = 54
+
+// var johnHeightMeters = 2.4
+// var johnMassKG = 3
+
+// var markBMI = markMassKG / (markHeightMeters * markHeightMeters)
+
+
+// var johnBMI = johnMassKG / (johnHeightMeters * johnHeightMeters)
+
+
+// if (markBMI > johnBMI) {
+//     console.log('Marks bmi is higher then johns ')
+// } else {
+//     console.log('johns bmi is higher then marks ')
+// }
+
+
+
+var firstName = 'michael'
+var age = 20
+
+if (age < 13) {
+    console.log(firstName + ' is a boy ')
+} else if (age >= 13 && age < 20) {
+    console.log(firstName + ' is a teenager ')
+} else if (age >= 20 && age < 30) {
+    console.log(firstName + ' is a young man ')
+} else {
+    console.log(firstName + ' is a man ')
+}
 
 
 
